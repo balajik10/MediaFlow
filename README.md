@@ -1,6 +1,27 @@
 # MediaFlow
+# HHLD  - File Upload Project
+
+This project allows users to upload files to Amazon S3 using a simple front-end interface built with React and a backend service using Node.js and Express.
+
+## Project Structure
+
+- `pages/uploadPage.jsx`: The main upload page.
+- `components/uploadForm.jsx`: The upload form component.
+- `routes/upload.route.js`: The route for handling file uploads.
+- `services/uploadService.js`: Service for handling the file upload to S3.
+
+## Installation
+
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Install dependencies:
+   ```bash
+   npm install
+
+## FUTURE OPTIONS
 
 MediaFlow is a dynamic video streaming platform designed to provide a seamless user experience through adaptive bitrate streaming, real-time transcoding, and efficient video chunking. Leveraging a robust tech stack, MediaFlow optimizes media delivery for various devices while ensuring high performance and scalability.
+
 
 ## Table of Contents
 
